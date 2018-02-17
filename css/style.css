@@ -1,0 +1,29 @@
+.header{
+	/*background: red;*/
+}
+.container{
+	/*background:white;*/
+	max-width: 1200px;
+	width:100%;
+	margin: 0 auto 0 auto;
+}
+.news-block{
+	background-color:#BDCCD4;
+	padding:90px 0;
+}
+.news-block .container{
+	display:flex;
+	justify-content:space-around;
+}
+.news-block article h1{
+	height:70px;
+	background-color:#ededed;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+@media (max-width: 992px) {
+	.news-block .container{
+		flex-wrap:wrap;
+	}
+}
